@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ybb">
+    <output-path>$PROJECT_DIR$/../zuoye/out/artifacts/ybb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="zuoye/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="zuoye" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

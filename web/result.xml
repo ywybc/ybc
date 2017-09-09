@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GBK" standalone="yes"?>
+<topic>
+    <links>
+        <link>
+            <source>node3</source>
+            <target>node4</target>
+        </link>
+        <link>
+            <source>node4</source>
+            <target>node5</target>
+        </link>
+        <link>
+            <source>node5</source>
+            <target>node6</target>
+        </link>
+    </links>
+    <nodes>
+        <node>node1</node>
+        <node>node2</node>
+        <node>node3</node>
+        <node>node4</node>
+        <node>node5</node>
+        <node>node6</node>
+    </nodes>
+    <traversals>
+        <breadth>node3-&gt;node4-&gt;node5-&gt;node6</breadth>
+        <depth>node3-&gt;node4-&gt;node5-&gt;node6</depth>
+        <start>node3</start>
+    </traversals>
+</topic>
